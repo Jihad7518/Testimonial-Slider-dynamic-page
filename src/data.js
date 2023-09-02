@@ -27,7 +27,7 @@ const reviews = [
     image: "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/369985451_3526592004265706_1439271548437439463_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeErlloayelXRqDk_zS1wdC99cpniU1Yqp_1ymeJTViqn_ZD5Rm2BHrmvcifn8GmVNWc3f7A6D2V_aFm0mEk1oR5&_nc_ohc=Dvkn46ieTpQAX8Cl54P&_nc_ht=scontent.fdac11-2.fna&oh=00_AfDhw6EZOlj1VEroGIgDdgf4TGBbZ3bisBKoUF_ktfY0sg&oe=64F73EB3",
     text: "I have worked with many developers over the years, but none have impressed me as much as this team. They have a knack for crafting compelling and engaging content that resonates with our audience and drives real results. I highly recommend them!",
   },
-    {
+  {
     id: 5,
     name: "Most. Mahbuba Yasmin",
     job: "Marketing Manager",
@@ -42,3 +42,5 @@ const reviews = [
     text: "I had the opportunity to work with this team on a data analysis project, and I was impressed with their attention to detail and their ability to work with complex datasets. They provided valuable insights that helped us make informed business decisions. It was a pleasure working with them.",
   },
 ];
+
+export default reviews;

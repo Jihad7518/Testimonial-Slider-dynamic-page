@@ -37,3 +37,16 @@ const Testimonials = (props) => {
     mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md'>
 
         <Card review = {reviews[index]}></Card>
+
+     <div className='flex text-3xl mt-10 gap-3 text-violet-400 font-bold mx-auto'>
+        <button 
+        onClick={leftShiftHandler}
+        className='cursor-pointer hover:text-violet-500 '>
+            <FiChevronLeft/>
+        </button>
+        <button 
+        onClick={rightShiftHandler}
+        className='cursor-pointer hover:text-violet-500 '>
+            <FiChevronRight/>
+        </button>
+      </div>
